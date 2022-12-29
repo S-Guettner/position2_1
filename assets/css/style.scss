@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color:#edefe3;
+}
+
+
+@font-face {
+    font-family:"poppins" ;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:"playfair" ;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+article{
+    display: flex;
+}
+
+.text{
+    width: 40vw;
+    position: relative;
+
+        h1{
+            position: absolute;
+            top:30vh;
+            left: 15vw;
+            font-size: 3rem;
+            width: 18rem;
+            line-height: 1.5;
+            font-family: "playfair";
+        }
+
+            p{
+                position: absolute;
+                top: 50vh;
+                left: 15vw;
+                font-family: "poppins";
+                font-size: 1.125rem;
+            }
+
+                a{
+                    color: black;
+                    position: absolute;
+                    top: 70vh;
+                    left: 15vw;
+                    font-family: "poppins";
+                    text-decoration: none;
+                    border: 1px solid #f5a941;
+                    padding: 0.75rem;
+                    width: 15rem;
+                    text-align: center;
+                    border-radius: 30px;
+                    background-color: #f5a941;
+                    font-weight: bold;
+                }
+}
+
+
+.image{
+    width: 50vw;
+    height: 100vh;
+}
+
+.image img{
+    width: 60vw;
+    height: 80vh;
+}
